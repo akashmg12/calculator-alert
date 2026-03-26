@@ -100,7 +100,7 @@ equalBtn.addEventListener("touchend", stopPress);
 
 function startPress() {
   timer = setTimeout(() => {
-    fetch("http://127.0.0.1:5000/alert", {
+    fetch("https://alert-backend-5qr0.onrender.com", {
       method: "POST"
     });
   }, 3000); // 3 sec hold
